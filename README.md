@@ -1,2 +1,29 @@
-# schedule_alam-releases
-Schedule Alarm APK releases
+# Schedule Alarm Releases
+
+교대근무자를 위한 Android 일정·알람 앱 **Schedule Alarm**의 공식 APK 배포 저장소입니다.
+
+## 다운로드
+
+오른쪽의 **Releases** 또는 [최신 릴리스](../../releases/latest)에서 APK를 내려받을 수 있습니다.
+
+- `stable` 릴리스: 일반 사용자를 위한 정식 버전
+- `pre-release` 릴리스: 실제 기기 검증을 위한 개발 버전
+
+## 설치 안내
+
+1. 릴리스의 Assets에서 `schedule-alam-v*.apk` 파일을 내려받습니다.
+2. Android에서 출처를 알 수 없는 앱 설치를 허용합니다.
+3. APK를 실행해 설치합니다.
+
+기존 버전 위에 설치하면 앱 데이터는 유지되지만, 중요한 일정은 업데이트 전에 확인하는 것을 권장합니다.
+
+## 주의사항
+
+- Android가 주 지원 대상입니다.
+- OCR, 내장 알람음과 전체화면 알람은 실제 설치 APK에서 동작합니다.
+- 정확한 알람을 위해 알림 및 `알람 및 리마인더` 권한이 필요할 수 있습니다.
+- 제조사 절전 정책에 따라 전체화면 알람 동작이 달라질 수 있습니다.
+
+## 저장소 안내
+
+이 저장소는 APK와 사용자용 릴리스 노트만 공개합니다. 애플리케이션 소스 코드는 포함하지 않습니다. GitHub가 자동으로 제공하는 `Source code` 압축 파일에는 이 README와 공개 배포 메타데이터만 들어 있습니다.
